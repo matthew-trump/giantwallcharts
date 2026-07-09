@@ -118,7 +118,7 @@ SPOT_PLACEHOLDER = "#FF00A6"  # placeholder fill flagged for spot-color swap
 svg_parts = []
 svg_parts.append(
     f'<svg xmlns="http://www.w3.org/2000/svg" '
-    f'width="{PAGE_W_IN}in" height="{PAGE_H_IN}in" '
+    f'width="{canvas_w / IN}in" height="{canvas_h / IN}in" '
     f'viewBox="0 0 {canvas_w:.2f} {canvas_h:.2f}">'
 )
 
