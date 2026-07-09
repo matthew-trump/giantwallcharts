@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Node (once site/ is scaffolded)
+node_modules/
+dist/
+.env
+
+# Affinity autosave/lock artifacts (adjust if these turn out not to apply)
+*.afdesign.bak
+*.afpub.bak
+~*.lock

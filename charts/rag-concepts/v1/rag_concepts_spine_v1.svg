@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36in" height="24in" viewBox="0 0 2610.00 1746.00">
+<g id="GUIDES_bleed_trim_safe">
+<rect id="bleed_box" x="0" y="0" width="2610.00" height="1746.00" fill="none" stroke="#FF00FF" stroke-width="0.75" stroke-dasharray="6,6"/>
+<rect id="trim_box" x="9.00" y="9.00" width="2592.00" height="1728.00" fill="none" stroke="#FF00FF" stroke-width="1.25"/>
+<rect id="safe_margin_box" x="63.00" y="63.00" width="2484.00" height="1620.00" fill="none" stroke="#00AEEF" stroke-width="0.75" stroke-dasharray="6,6"/>
+</g>
+<g id="HEADER_zone">
+<rect id="header_placeholder" x="63.00" y="63.00" width="2484.00" height="162.00" fill="none" stroke="#00AEEF" stroke-width="0.75" stroke-dasharray="6,6"/>
+<text id="title_placeholder" x="75.00" y="111.00" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#111111">RAG PIPELINE — QUICK REVIEW</text>
+<g id="VERSION_BADGE_spotcolor"><rect x="2431.80" y="181.80" width="115.20" height="43.20" fill="#FF00A6"/><text x="2445.80" y="213.40" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">v1<tspan font-size="14" dx="2" dy="1">.0</tspan></text></g>
+</g>
+<g id="SPINE_baseline">
+<line x1="63.00" y1="864.00" x2="2547.00" y2="864.00" stroke="#111111" stroke-width="2"/>
+</g>
+<g id="STAGES">
+<g id="STAGE_01_INGESTION">
+<rect x="63.00" y="225.00" width="336.86" height="1278.00" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="73.00" y="259.00" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111">1. INGESTION</text>
+</g>
+<g id="STAGE_02_CHUNKING">
+<rect x="425.06" y="225.00" width="336.86" height="1278.00" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="435.06" y="259.00" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111">2. CHUNKING</text>
+</g>
+<g id="STAGE_03_EMBEDDING">
+<rect x="787.11" y="225.00" width="336.86" height="1278.00" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="797.11" y="259.00" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111">3. EMBEDDING</text>
+</g>
+<g id="STAGE_04_INDEXING">
+<rect x="1149.17" y="225.00" width="336.86" height="1278.00" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="1159.17" y="259.00" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111">4. INDEXING</text>
+</g>
+<g id="STAGE_05_RETRIEVAL">
+<rect x="1511.23" y="225.00" width="673.71" height="1278.00" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="1521.23" y="259.00" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111">5. RETRIEVAL</text>
+<rect id="BRANCH_DENSE" x="1525.23" y="297.00" width="645.71" height="285.50" fill="none" stroke="#111111" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="1535.23" y="445.75" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#333333">DENSE</text>
+<rect id="BRANCH_SPARSE" x="1525.23" y="598.50" width="645.71" height="285.50" fill="none" stroke="#111111" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="1535.23" y="747.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#333333">SPARSE</text>
+<rect id="BRANCH_HYBRID" x="1525.23" y="900.00" width="645.71" height="285.50" fill="none" stroke="#111111" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="1535.23" y="1048.75" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#333333">HYBRID</text>
+<rect id="BRANCH_RERANK" x="1525.23" y="1201.50" width="645.71" height="285.50" fill="none" stroke="#111111" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="1535.23" y="1350.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#333333">RERANK</text>
+</g>
+<g id="STAGE_06_GENERATION">
+<rect x="2210.14" y="225.00" width="336.86" height="1278.00" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="2220.14" y="259.00" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111">6. GENERATION</text>
+</g>
+</g>
+<g id="FOOTER_failure_modes_strip">
+<rect x="63.00" y="1503.00" width="2484.00" height="180.00" fill="none" stroke="#111111" stroke-width="1.5"/>
+<text x="73.00" y="1531.00" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#111111">FAILURE MODES AT A GLANCE</text>
+<line x1="63.00" y1="1539.00" x2="63.00" y2="1683.00" stroke="#CCCCCC" stroke-width="0.75"/>
+<text x="73.00" y="1563.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">Stale index</text>
+<text x="73.00" y="1581.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">/ doc drift</text>
+<line x1="559.80" y1="1539.00" x2="559.80" y2="1683.00" stroke="#CCCCCC" stroke-width="0.75"/>
+<text x="569.80" y="1563.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">Retrieval-generation</text>
+<text x="569.80" y="1581.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">mismatch</text>
+<line x1="1056.60" y1="1539.00" x2="1056.60" y2="1683.00" stroke="#CCCCCC" stroke-width="0.75"/>
+<text x="1066.60" y="1563.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">Context overflow</text>
+<text x="1066.60" y="1581.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">/ lost-in-the-middle</text>
+<line x1="1553.40" y1="1539.00" x2="1553.40" y2="1683.00" stroke="#CCCCCC" stroke-width="0.75"/>
+<text x="1563.40" y="1563.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">Chunk boundary</text>
+<text x="1563.40" y="1581.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">cuts off answer</text>
+<line x1="2050.20" y1="1539.00" x2="2050.20" y2="1683.00" stroke="#CCCCCC" stroke-width="0.75"/>
+<text x="2060.20" y="1563.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">Eval blind spots</text>
+<text x="2060.20" y="1581.00" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">(recall@k != prod)</text>
+</g>
+</svg>
