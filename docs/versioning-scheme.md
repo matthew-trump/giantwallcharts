@@ -45,9 +45,12 @@ than washing the whole design in a new color per version) means:
 - The core Bauhaus palette and grid stay constant across every version of
   every chart — protecting the brand-recognition value of a consistent
   palette across the whole line (see `brand-guidelines.md`).
-- Production stays cheap: a version bump only requires re-running/swapping
-  one spot-color plate/separation, not re-running the whole print job's
-  color separations.
+- Terminology note: "spot color" here means one designated solid accent
+  color in the pre-digital sense, not a literal premixed-ink plate — POD
+  and digital printing have no plates or separations, so there's no
+  production-cost angle either way. The practical consequence instead:
+  badge colors must be chosen to stay solid and punchy after CMYK/inkjet
+  conversion, since no actual spot ink guarantees the hue.
 
 ## Two-tier signal, on purpose
 

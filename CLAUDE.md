@@ -9,7 +9,9 @@ runs once demand is proven.
 Read this file first in any session. Then read `docs/project-brief.md` for
 full background, `docs/versioning-scheme.md` before touching any version
 badge or spine topology, and `docs/production-pipeline.md` before generating
-or editing print artifacts.
+or editing print artifacts. The current critical path to shipping the first
+product is `docs/roadmap-to-first-sale.md` — work not on that path is
+deliberately deferred.
 
 ## Repo shape (monorepo)
 

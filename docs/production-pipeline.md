@@ -57,13 +57,37 @@ against whichever specific POD vendor is chosen — vendor template
 requirements (bleed, DPI, color profile, sometimes vendor-specific
 templates) are not yet locked in this repo.
 
+## Export target for POD posters (researched July 2026)
+
+Current Printful and Printify guidelines both want the same artifact, so
+the vendor decision does not block design or export work:
+
+- **Flat raster file, not a press-ready PDF.** PNG preferred (JPEG
+  acceptable). Printify caps PNG/JPEG uploads at 100 MB — a flat-color
+  poster PNG compresses comfortably under that.
+- **Color: sRGB IEC61966-2.1, not CMYK.** Vendors convert to their
+  printers' space themselves and explicitly ask for sRGB submissions.
+  Set up the Affinity Designer/Publisher documents as RGB/8 with the
+  sRGB IEC61966-2.1 profile from the start — do not design in CMYK.
+- **Resolution: 300 DPI at full physical size.** 36x24in trim =
+  10800x7200 px; 10875x7275 px if the bleed is included in the upload.
+  (300 is the recommended/ideal; Printful accepts down to 75 for paper
+  products, but there's no reason to go below 300 here.)
+- **Bleed: 0.125in**, matching the scaffold generator's default. Check
+  the chosen product's "File guidelines" tab at upload time for whether
+  the uploaded file should include the bleed area or be trim-size with
+  full-bleed artwork — Affinity Publisher can export either from the
+  same document.
+- **Candidate product**: Printful "Enhanced Matte Paper Poster" carries
+  24x36in (printed landscape for this line) and is printed in-house with
+  consistent quality; Printify is cheaper but routes to third-party print
+  providers with more variable output. Same file works for both.
+
 ## Open questions
 
-- **POD vendor** — Printful vs Printify vs other. Pull exact file specs
-  before finalizing Publisher page setup; may require adjusting the
-  scaffold generator's bleed/margin defaults.
-- **Color profile** — CMYK conversion / profile target not yet specified;
-  needs to be confirmed against vendor requirements before final export.
+- **POD vendor** — Printful vs Printify vs other. Non-blocking for design
+  work (see export target above); decide at listing time based on
+  price/quality of an ordered proof.
 - **Spot color implementation** — the version badge is currently a flat
   placeholder fill (`#FF00A6`) in the generated SVG, explicitly named
   `VERSION_BADGE_spotcolor` so it's unmistakable which object to convert to
