@@ -16,6 +16,9 @@ node_modules/
 dist/
 .env
 
+# Derived letter-proof PDFs (regenerate via shared/scripts/letter_proof.py)
+*_letterproof.pdf
+
 # Affinity autosave/lock artifacts (adjust if these turn out not to apply)
 *.afdesign.bak
 *.afpub.bak

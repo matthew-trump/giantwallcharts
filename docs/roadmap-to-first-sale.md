@@ -8,6 +8,22 @@ dominated by proof shipping waits, not work.
 Scope discipline: everything in "Explicitly not on this path" (bottom) is
 a detour until the first sale happens.
 
+## Phase 0 — Teach it first (video series, before design details)
+
+Content development, not busywork: teaching the material live is how the
+chart's boxes get pressure-tested before a single hour of Affinity work is
+spent finishing them. Also builds the audience Phase 4's launch posts go
+out to. Full workflow and outlines: `charts/rag-concepts/videos/`.
+
+- [x] Outlines written for all 9 videos (`01-what-is-rag.md` through
+      `09-failure-modes.md`).
+- [ ] Record the series (self-produced, no help needed here).
+- [ ] After each recording, fill in that video's "Capture for the chart"
+      checklist.
+- [ ] Reconcile captures against `charts/rag-concepts/README.md` — content
+      that survived teaching earns wall space; topology changes are free
+      until v1 prints (see `versioning-scheme.md`).
+
 ## Phase 1 — Unblock the design (one evening)
 
 The only open decisions that gate the Affinity work. Per the "start

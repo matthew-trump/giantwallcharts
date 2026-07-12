@@ -43,6 +43,23 @@ constraints are exactly the kind of precision requirement that's error-prone
 to maintain by hand across multiple binary Affinity files, but trivial to
 guarantee in a script whose diffs are plain text and reviewable in git.
 
+## Letter proofs (draft printing at any stage)
+
+`shared/scripts/letter_proof.py` turns any draft artifact — the generated
+SVG scaffold, or a PNG/JPEG exported from Affinity — into an 11x8.5in
+landscape PDF, scaled to fit, with a header noting source file, date, and
+reduction scale (~29% of full poster size):
+
+```
+python3 shared/scripts/letter_proof.py charts/<slug>/v1/<draft>.svg
+```
+
+Writes `<draft>_letterproof.pdf` next to the input and opens it in
+Preview for printing. Layout/proportion check only — fine print will be
+tiny at this reduction and desktop printer color is not calibrated.
+Requires Google Chrome (used headlessly for PDF rendering). Proof PDFs
+are derived artifacts and gitignored.
+
 ## Print specifications (current defaults)
 
 - Canvas: 36in x 24in, landscape orientation.
